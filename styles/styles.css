@@ -1,12 +1,85 @@
+ul {
+    list-style-type: none;
+}
 
+body {
+    background: #FFFFFF;
+}
+a:link {
+    color: #212121;
+    text-decoration: none;
+}
+a:visited {
+    color: #212121;
+}
+a:hover {
+    color: #2196F3;
+}
 /* Верхняя линия */
-
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 80px;
+    background-color: #ECECEC;
+}
+.navigators {
+    display: flex;
+}
+.navigator:focus,
+.navigator:hover {
+    color: #2196F3;
+}
+.infos {
+    color: #757575;
+    display: flex;
+}
+.info a:link{
+    color: #757575;
+}
 /* Шапка Профиля */
+.main-head {
+    background-color: #2F303A;
+    height: 600px;
+    display: flex;
+}
+.head {
+    color: #FFFFFF;
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
 
 /* Кнопка */
+.order-button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+}
 
 /* Особенности */
-
+.no-see {
+    color: transparent;
+}
 /* Чем мы занимаемся*/
 
 /* Наша команда */
