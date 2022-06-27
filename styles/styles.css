@@ -4,6 +4,7 @@ ul {
 
 body {
     background: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 a:link {
     color: #212121;
@@ -21,27 +22,47 @@ a:hover {
     justify-content: space-evenly;
     align-items: baseline;
     height: 80px;
-    background-color: #ECECEC;
+    
 }
 .navigators {
     display: flex;
+    gap: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
+
 .navigator:focus,
 .navigator:hover {
     color: #2196F3;
 }
 .infos {
-    color: #757575;
     display: flex;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
 }
-.info a:link{
+a.info {
     color: #757575;
+}
+a.info:hover,
+a.info:focus {
+    color: #2196F3;
 }
 /* Шапка Профиля */
 .main-head {
     background-color: #2F303A;
     height: 600px;
     display: flex;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
 }
 .head {
     color: #FFFFFF;
@@ -51,7 +72,6 @@ a:hover {
     left: 452px;
     top: 280px;
     
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -60,6 +80,7 @@ a:hover {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
 }
 
 /* Кнопка */
@@ -73,6 +94,12 @@ a:hover {
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 200px;
     
 }
 
@@ -80,8 +107,88 @@ a:hover {
 .no-see {
     color: transparent;
 }
+
+.features {
+    display: flex;   
+    gap: 30px;
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.feature-1 {
+    padding-left: 215px;
+}
+
+.feature-2 {
+
+}
+
+.feature-3 {
+
+}
+
+.feature-4 {
+    padding-right: 215px;
+}
+
+.feature-head {
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 270px;
+        height: 16px;
+    
+}
+
+.feature-description {
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    width: 270px;
+    height: 75px;
+}
 /* Чем мы занимаемся*/
 
+.work {
+
+    width: 376px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-pics {
+   display: flex;
+   gap: 30px;
+    width: 370px; 
+    height: 294px;
+}
+
+.pic-1 {
+    
+    padding-left: 215px;
+  
+}
+
+.pic-2 {
+    
+}
+
+.pic-3 {
+    padding-right: 215px;
+}
 /* Наша команда */
 
 /* Подвал */
