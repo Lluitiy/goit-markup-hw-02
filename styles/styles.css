@@ -5,6 +5,8 @@ ul {
 body {
     background: #FFFFFF;
     font-family: 'Roboto', sans-serif;
+    color: #212121;
+
 }
 a:link {
     color: #212121;
@@ -23,6 +25,23 @@ a:hover {
     align-items: baseline;
     height: 80px;
     
+}
+
+a.header-brand {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+.head-blue {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
 }
 .navigators {
     display: flex;
@@ -56,9 +75,9 @@ a.info:focus {
 }
 /* Шапка Профиля */
 .main-head {
-    background-color: #2F303A;
-    height: 600px;
     display: flex;
+    height: 600px;
+    background-color: #2F303A;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -100,7 +119,6 @@ a.info:focus {
     line-height: 30px;
     margin-top: 30px;
     margin-bottom: 200px;
-    
 }
 
 /* Особенности */
@@ -118,15 +136,6 @@ a.info:focus {
 .feature-1 {
     padding-left: 215px;
 }
-
-.feature-2 {
-
-}
-
-.feature-3 {
-
-}
-
 .feature-4 {
     padding-right: 215px;
 }
@@ -137,10 +146,9 @@ a.info:focus {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     width: 270px;
-        height: 16px;
+    height: 16px;
     
 }
 
@@ -150,23 +158,21 @@ a.info:focus {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
     width: 270px;
     height: 75px;
 }
 /* Чем мы занимаемся*/
 
 .work {
-
-    width: 376px;
-    height: 42px;
+    margin-top: 94px;
+    padding-left: 668px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
+    line-height: 42px;      
     color: #212121;
+    width: 376px;
+    height: 42px;
 }
 
 .work-pics {
@@ -182,15 +188,157 @@ a.info:focus {
   
 }
 
-.pic-2 {
-    
-}
-
 .pic-3 {
     padding-right: 215px;
 }
 /* Наша команда */
 
-/* Подвал */
+#ourteam {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background-color: #F5F4FA;
+    
+}
 
+.team {
+    margin-top: 188px;
+    padding-left: 668px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    width: 264px;
+    height: 42px;
+    margin-bottom: 50px;
+}
+
+.team-box {
+    display: flex;
+    gap: 30px;
+}
+
+.team-1 {
+    box-sizing: border-box;
+    margin-left: 215px;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-2 {
+    box-sizing: border-box;
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-3 {
+    box-sizing: border-box;
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-4 {
+    box-sizing: border-box;
+    width: 270px;
+    height: 368px;
+    left: 1115px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-member {
+    margin-top: 30px;
+    width: 151px;
+    height: 19px;
+    left: 275px;
+    top: 1925px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.member-desc {
+    width: 130px;
+    height: 19px;
+    left: 285px;
+    top: 1954px;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+
+
+
+
+/* Подвал */
+.footer {
+    background-color: #2F303A;
+    display: flex;
+    flex-direction: column;
+    padding-left: 215px;
+    justify-content: flex-start;
+}
+a.adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.foot-white {
+    color: #FFFFFF;
+}
+a.foot-brand {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+.location {
+    box-sizing: border-box;
+    padding-bottom: 9px;
+    color: #FFFFFF;
+}
+a.info-foot {
+    padding-bottom: 9px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
 /* Указатели */
