@@ -15,37 +15,39 @@ a:link {
 a:visited {
     color: #212121;
 }
-a:hover {
+a:hover,
+a:focus {
     color: #2196F3;
 }
+
 /* Верхняя линия */
-.header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    height: 80px;
-    
+
+.head {
+    background-color: #FFFFFF;
 }
 
-a.header-brand {
+.container-x1 {
+
+}
+
+a.logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    color: #2196F3;
+}
+
+.logo-black {
     color: #000000;
 }
-.head-blue {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    color: #2196F3;
-}
+
 .navigators {
-    display: flex;
-    gap: 50px;
+
+}
+
+.navigator {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -53,286 +55,168 @@ a.header-brand {
     letter-spacing: 0.02em;
 }
 
-.navigator:focus,
-.navigator:hover {
-    color: #2196F3;
+.head-infos {
+
 }
-.infos {
-    display: flex;
-    gap: 50px;
+
+.head-info {
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
 }
-a.info {
+
+a.head-info {
     color: #757575;
 }
-a.info:hover,
-a.info:focus {
+
+a.head-info:hover,
+a.head-info:focus {
     color: #2196F3;
 }
 /* Шапка Профиля */
-.main-head {
-    display: flex;
-    height: 600px;
-    background-color: #2F303A;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
+
+.solutions {
+    background: #2F303A;
 }
-.head {
-    color: #FFFFFF;
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    
+
+.solutions-text {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-}
-
-/* Кнопка */
-.order-button {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     color: #FFFFFF;
-    background-color: #2196F3;
+}
+/* Кнопка */
+
+.button-background {
+    background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+
+.button-text {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    margin-top: 30px;
-    margin-bottom: 200px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
-
 /* Особенности */
+
 .no-see {
     color: transparent;
 }
 
 .features {
-    display: flex;   
-    gap: 30px;
-    padding-bottom: 94px;
-    padding-top: 94px;
+
 }
 
-.feature-1 {
-    padding-left: 215px;
-}
-.feature-4 {
-    padding-right: 215px;
-}
-
-.feature-head {
-    color: #212121;
+.feature {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    width: 270px;
-    height: 16px;
-    
 }
 
-.feature-description {
-    color: #757575;
+.about-feature {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    width: 270px;
-    height: 75px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 /* Чем мы занимаемся*/
 
-.work {
-    margin-top: 94px;
-    padding-left: 668px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;      
-    color: #212121;
-    width: 376px;
-    height: 42px;
+.what-we-do {
+
 }
 
-.work-pics {
-   display: flex;
-   gap: 30px;
-    width: 370px; 
-    height: 294px;
-}
-
-.pic-1 {
-    
-    padding-left: 215px;
-  
-}
-
-.pic-3 {
-    padding-right: 215px;
-}
-/* Наша команда */
-
-#ourteam {
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
-    background-color: #F5F4FA;
-    
-}
-
-.team {
-    margin-top: 188px;
-    padding-left: 668px;
+.head-doing {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    width: 264px;
-    height: 42px;
-    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.team-box {
-    display: flex;
-    gap: 30px;
+.works {
+
+}
+/* Наша команда */
+
+.our-team {
+    background: #F5F4FA;
 }
 
-.team-1 {
-    box-sizing: border-box;
-    margin-left: 215px;
-    width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1635px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
-.team-2 {
-    box-sizing: border-box;
-    width: 270px;
-    height: 368px;
-    left: 515px;
-    top: 1635px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+.team-head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.team-3 {
-    box-sizing: border-box;
-    width: 270px;
-    height: 368px;
-    left: 815px;
-    top: 1635px;
-    background: #FFFFFF;
+.card-shadow {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
-
-.team-4 {
-    box-sizing: border-box;
-    width: 270px;
-    height: 368px;
-    left: 1115px;
-    top: 1635px;
     background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-member {
-    margin-top: 30px;
-    width: 151px;
-    height: 19px;
-    left: 275px;
-    top: 1925px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    margin-left: 60px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.member-desc {
-    width: 130px;
-    height: 19px;
-    left: 285px;
-    top: 1954px;
-    margin-left: 70px;
+.member-description {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #757575;
 }
-
-
-
-
 /* Подвал */
-.footer {
+footer {
     background-color: #2F303A;
-    display: flex;
-    flex-direction: column;
-    padding-left: 215px;
-    justify-content: flex-start;
 }
-a.adress {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-.foot-white {
-    color: #FFFFFF;
-}
-a.foot-brand {
+
+a.footer-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     color: #2196F3;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-top: 60px;
 }
-.location {
-    box-sizing: border-box;
-    padding-bottom: 9px;
+.logo-white {
     color: #FFFFFF;
 }
-a.info-foot {
-    padding-bottom: 9px;
+a.location {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+a.footer-info {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -340,5 +224,9 @@ a.info-foot {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+a.footer-info:hover,
+a.footer-info:focus {
+    color: #2196F3  ;
 }
 /* Указатели */
