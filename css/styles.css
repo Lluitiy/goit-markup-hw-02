@@ -46,8 +46,10 @@ a.logo {
     letter-spacing: 0.02em;
 }
 
-.current-page {
-    color: #2196F3;
+
+
+.navigator:current {
+    color: #000000;
 }
 
 a.navigator:hover,
